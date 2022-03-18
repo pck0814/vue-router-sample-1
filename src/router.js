@@ -21,8 +21,8 @@ const router = new VueRouter({
       path: '/product/:id', // ':id'가 매개 변수에 들어 있는 경우
       component: Product,
       // 함수로 지정하면 첫 번째 매개변수로 현재 라우트 객체를 사용할 수 있음
-      props: route => ({
-        id: Number(route.params.id)
+      props: rt => ({
+        id: Number(rt.params.id)
       })
     }
   ]
