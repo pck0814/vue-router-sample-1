@@ -1,6 +1,6 @@
 <template>
   <div class="product" v-if="item" key="product">
-    <h1>상품 정보</h1>
+    <h1>상품 정보 상세</h1>
     <dl class="product-table">
       <dt>상품 이름</dt>
       <dd>{{ item.name }}</dd>
